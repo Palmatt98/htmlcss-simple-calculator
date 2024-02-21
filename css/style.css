@@ -2,8 +2,12 @@
    margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
 }
 /* HEADER */
+.principal-container{
+
+}
 
 .container-top{
 	width: 400px;
@@ -11,17 +15,77 @@
 	background-color: #e6e6e6;
 	display: flex;
 	justify-content: center;
+	border-radius: 5%;
+	
 }
-/* /HEADER§ */
+/* /HEADER */
 /* MAIN */
 .container-mian{
 	width: 400px;
-	height: 100px;
+	height: 80px;
 	background-color: black;
+	
+	
 }
-.number{
+/* numero 0 in alto */
+.number0{
 	color: white;
 	font-size: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	
+	
+}
+/* contenitore della calcolatrice */
+.numbers{
+   width: 400px;
+	height: 150px;
+	background-color: #e6e6e6;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+/* numeri della tabella*/
+.number2 {
+	width: 70px;
+	height: 70px;
+	background-color: #bbbbbb;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10%;
+	
+}
+/* numero 0 sottostante */
+.number3{
+	width: 130px;
+	height: 70px;
+	background-color: #bbbbbb;
+	margin: 30px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10%;	
+}
+.numbers .symbol{
+	width: 70px;
+	height: 70px;
+	background-color: #bbbbbb;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10%;
+}
+.entieties {
+	display: flex;
+	flex-direction: column;
+	width: 70px;
+	height: 70px;
+	background-color: #bbbbbb;
 
 }
+
 /* /MIAN */

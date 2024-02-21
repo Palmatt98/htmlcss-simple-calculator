@@ -1,0 +1,27 @@
+*{
+   margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* HEADER */
+
+.container-top{
+	width: 400px;
+	height: 150px;
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: center;
+}
+/* /HEADER§ */
+/* MAIN */
+.container-mian{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+.number{
+	color: white;
+	font-size: 50px;
+
+}
+/* /MIAN */

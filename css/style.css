@@ -2,12 +2,13 @@
    margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 }
-/* HEADER */
-.principal-container{
 
+body{
+	font-family: sans-serif;
 }
+
+/* HEADER */
 
 .container-top{
 	width: 400px;
@@ -20,7 +21,7 @@
 }
 /* /HEADER */
 /* MAIN */
-.container-mian{
+.container-head{
 	width: 400px;
 	height: 80px;
 	background-color: black;
@@ -38,7 +39,7 @@
 }
 /* contenitore della calcolatrice */
 .numbers{
-   width: 400px;
+	width: 400px;
 	height: 150px;
 	background-color: #e6e6e6;
 	display: flex;
@@ -79,13 +80,13 @@
 	align-items: center;
 	border-radius: 10%;
 }
-.entieties {
+.container-entieties {
 	display: flex;
 	flex-direction: column;
 	width: 70px;
 	height: 70px;
 	background-color: #bbbbbb;
-
+	
 }
 
 /* /MIAN */
